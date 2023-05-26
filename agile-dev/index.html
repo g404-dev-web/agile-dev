@@ -4,28 +4,35 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href=""/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"/>
     <!--Import your custom.css-->
-    <link type="text/css" rel="stylesheet" href=""/>
+    <link type="text/css" rel="stylesheet" href="css/custom.css"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>🤙 Yo! application 🤙 | Simplon</title>
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <div class="navbar-fixed">
         <nav>
-          <div>
-            <a href="" class="logo"><img src="img/logo_application.png"></a>
-            <ul class="menu">
+          <div class="nav-wrapper">
+            <a href="" class="brand-logo"><img src="img/logo_application.png"></a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
                 <li><a href="#profit">Bénéfices</a></li>
                 <li><a href="#features">Fonctionnalités</a></li>
-                <li><a href="#download">Télécharger</a></li>
+                <li><a href="#download" class="waves-effect waves-light btn">Télécharger</a></li>
             </ul>
           </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#profit">Bénéfices</a></li>
+          <li><a href="#features">Fonctionnalités</a></li>
+          <li><a href="#download" class="waves-effect waves-light btn">Télécharger</a></li>
+      </ul>
       </div>
     </header>
+    
    
     <!-- Start code here -->
     
