@@ -94,6 +94,33 @@ ul.navbar li.navbar-button a {
 }
 
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: white;
+}
+
+
 
 .image {
     width: 400px;
@@ -107,4 +134,5 @@ ul.navbar li.navbar-button a {
 .button {
     text-align: right;
 }
+
 
