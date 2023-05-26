@@ -1,0 +1,72 @@
+.nav-wrapper{
+    background-color: darkslategrey;
+  }
+  .btn{
+    background-color: tomato;
+  }
+  .btn:hover{
+    background-color: darkred;
+  }
+  label.active{
+    color: tomato;
+  }
+  input[type=email]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid tomato;
+    -webkit-box-shadow: 0 1px 0 0 tomato;
+    box-shadow: 0 1px 0 0 tomato;
+  }
+  header{
+    position: relative;
+    z-index: 999;
+  }
+  .brand-logo img{
+    max-height: 50px;
+    margin: 8px;
+  }
+  .showcase{
+    padding-top: 2rem;
+    background-color: lightskyblue;
+  }
+  .showcase .hero{
+    padding-top: 2rem;
+  }
+  .profit .text-wrapper{
+    padding-top: 4rem;
+  }
+  .profit img{
+    max-height: 450px;
+  }
+  .features{
+    background-color: lightskyblue;
+    padding: 2rem 0;
+  }
+  .page-footer{
+    background-color: darkslategrey;
+  }
+  .page-footer svg{
+    fill: white;
+    height: 35px;
+  }
+  .download{
+    padding-top: 2rem;
+  }
+  .parts{
+    background-color: lightskyblue;
+    padding: 2rem 0;
+    margin: 0;
+  }
+  form .btn{
+    margin-top: 2rem;
+  }
+  
+  @media (max-width:768px){
+    .brand-logo img{
+      max-height: 40px;
+      margin: 8px;
+    }
+    .hero,
+    .download,
+    .features .text-wrapper{
+      text-align: center;
+    }
+  }
