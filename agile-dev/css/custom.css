@@ -1,3 +1,53 @@
+.section-2 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* Centre le bloc horizontalement */
+    width: 80%;
+    /* Largeur du bloc */
+}
+
+.section-3 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    text-justify: ;
+}
+
+.left {
+    flex: 1 1 auto;
+    /* Ne pas agrandir la zone automatiquement */
+    margin-right: 20px;
+    /* Marge à droite pour séparer les zones */
+}
+.left2 {
+    flex: 1 1 auto;
+    /* Ne pas agrandir la zone automatiquement */
+    text-align: right;
+    margin-right: 20px;
+    /* Marge à droite pour séparer les zones */
+}
+.center {
+    flex: 0 0 auto;
+    margin: 0 20px; /* Marge à gauche et à droite pour séparer les zones */
+}
+
+.right {
+    flex: 1 1 auto;
+    /* Permet à la zone de droite de prendre toute la largeur disponible */
+}
+
+
+h2 {
+    font-size: 1.5em;
+    /* Taille du titre */
+}
+
+button {
+    padding: 10px 20px;
+    /* Espacement intérieur du bouton */
+}
 
 /* section 1 */
 .section1 {
@@ -47,4 +97,3 @@ nav .imagelogo{
 nav .listenav{
     padding-right: 35px;
 }
-
