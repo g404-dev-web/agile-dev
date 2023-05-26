@@ -1,5 +1,5 @@
-/* section 1 */
 
+/* section 1 */
 header {
     display: flex;
     align-items: center;
@@ -39,5 +39,12 @@ header {
   }
   
   
+/* section 1 */
+nav .imagelogo{
+    padding-left: 25px;
+    padding-top: 9px;
+}
+nav .listenav{
+    padding-right: 35px;
+}
 
-  /* section 1 */
