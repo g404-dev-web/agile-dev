@@ -1,0 +1,16 @@
+#img_cover {
+    float: left;
+    margin-right: 10%;
+}
+
+#section2 {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#text2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
