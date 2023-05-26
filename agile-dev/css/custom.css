@@ -47,6 +47,7 @@ img {
 /* DEB SECTION 2 ET 3 */
 
 .section-2 {
+    padding: 20px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -61,6 +62,7 @@ img {
 }
 
 .section-3 {
+    padding: 20px;
     display: flex;
     align-items: center;
     margin: 0 auto;
