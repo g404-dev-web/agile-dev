@@ -1,3 +1,51 @@
+/* NAV BAR */
+nav .imagelogo {
+    padding-left: 25px;
+    padding-top: 9px;
+}
+
+nav .listenav {
+    padding-right: 35px;
+}
+
+/* FIN NAV BAR */
+
+/* DEB section 1 */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #9c9c9c;
+}
+
+img {
+    width: 200px;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.buttonsec1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 1200px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s;
+    opacity: 0.8;
+  }
+
+
+/* section 1 */
+
+/* DEB SECTION 2 ET 3 */
+
 .section-2 {
     display: flex;
     align-items: center;
@@ -7,6 +55,11 @@
     /* Largeur du bloc */
 }
 
+.section2-img {
+    width: 200px;
+
+}
+
 .section-3 {
     display: flex;
     align-items: center;
@@ -14,12 +67,17 @@
     width: 80%;
 }
 
+.section3-img {
+    width: 150px;
+  }
+
 .left {
     flex: 1 1 auto;
     /* Ne pas agrandir la zone automatiquement */
     margin-right: 20px;
     /* Marge à droite pour séparer les zones */
 }
+
 .left2 {
     flex: 1 1 auto;
     /* Ne pas agrandir la zone automatiquement */
@@ -27,9 +85,11 @@
     margin-right: 20px;
     /* Marge à droite pour séparer les zones */
 }
+
 .center {
     flex: 0 0 auto;
-    margin: 0 20px; /* Marge à gauche et à droite pour séparer les zones */
+    margin: 0 20px;
+    /* Marge à gauche et à droite pour séparer les zones */
 }
 
 .right {
@@ -37,9 +97,13 @@
     /* Permet à la zone de droite de prendre toute la largeur disponible */
 }
 
-
 h2 {
     font-size: 1.5em;
+    /* Taille du titre */
+}
+
+h3 {
+    font-size: 1.2em;
     /* Taille du titre */
 }
 
@@ -47,6 +111,7 @@ button {
     padding: 10px 20px;
     /* Espacement intérieur du bouton */
 }
+
 
 /* section 1 */
 .section1 {
@@ -113,3 +178,5 @@ nav .listenav{
   font-size: 14px;
   color: #888;
 }
+
+/* FIN SECTION 2 ET 3 */
