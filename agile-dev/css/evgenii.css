@@ -1,0 +1,108 @@
+/*sociallinks*/
+.containerz {
+    margin: 60px auto 0px auto;
+    text-align: center;
+  }
+
+  .effect {
+    width: 100%;
+    background-color: #212121;
+  }
+  .effect h2 {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+  .effect:nth-child(2) {
+    margin-top: 50px;
+  }
+  .effect:nth-child(2n+1) {
+    background-color: #fff;
+  }
+  .effect:nth-child(2n+1) h2 {
+    color: #212121;
+  }
+  .effect .buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .effect a:last-child {
+    margin-right: 0px;
+  }
+  
+  .effect a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+  }
+  .effect a i {
+    position: relative;
+    z-index: 3;
+  }
+  .effect a.fb {
+    background-color: #3b5998;
+  }
+  .effect a.tw {
+    background-color: #00aced;
+  }
+  .effect a.insta {
+    background-color: #bc2a8d;
+  }
+
+  .effect.egeon a {
+    transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+  }
+  .effect.egeon a i {
+    transition: transform 0.2s linear 0s;
+  }
+  .effect.egeon a:hover {
+    transform: rotate(-90deg);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  .effect.egeon a:hover i {
+    transform: rotate(90deg);
+  }
+  .buttons{
+    float: right;
+    margin-right: 3%;
+    position: relative;
+    bottom: 42px;
+
+  }
+  /*sociallinks end*/
+
+
+
+  /*footer*/
+  .page-footerz {
+
+    color: #fff;
+    background-color: #ee6e73;
+  }
+  
+  .page-footerz .footer-copyrightz {
+    overflow: hidden;
+    min-height: 75px;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  /*footer end*/
