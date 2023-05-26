@@ -1,6 +1,6 @@
 
 /* section 1 */
-header {
+.section1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
