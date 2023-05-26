@@ -1,0 +1,110 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  .form-container {
+    width: 100%;
+    max-width: 600px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .input-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .photo-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .photo-field label {
+    margin-bottom: 10px;
+  }
+
+  .photo-field input[type="file"] {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 600px) {
+    .input-field {
+      width: auto;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+  
+  
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    background-color: #111;
+}
+
+ul.navbar li.navbar-logo {
+    margin-right: 20px;
+}
+
+ul.navbar li.navbar-logo img {
+    height: 40px;
+    vertical-align: middle;
+}
+ul.navbar li.navbar-button {
+    float: right;
+}
+
+ul.navbar li.navbar-button a {
+    background-color: #4CAF50;
+}
+
+
+
+.image {
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}
+.text {
+    text-align: right;
+}
+
+.button {
+    text-align: right;
+}
+
