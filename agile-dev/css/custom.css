@@ -164,21 +164,22 @@ nav .listenav{
     padding-right: 35px;
 }
 
-.footer {
+/* Footer debut */
+.footerso {
   background-color: #f1f1f1;
   padding: 20px 0;
   text-align: center;
 }
 
-.footer .container {
+.footerso .containerso {
   max-width: 960px;
   margin: 0 auto;
 }
 
-.footer p {
+.footerso p {
   margin: 0;
   font-size: 14px;
   color: #888;
 }
-
+/* Fin footer */
 /* FIN SECTION 2 ET 3 */
