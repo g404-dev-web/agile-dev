@@ -37,3 +37,18 @@ ul.navbar li.navbar-button {
 ul.navbar li.navbar-button a {
     background-color: #4CAF50;
 }
+
+
+
+.image {
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}
+.text {
+    text-align: right;
+}
+
+.button {
+    text-align: right;
+}
