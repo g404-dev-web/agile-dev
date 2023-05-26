@@ -139,20 +139,15 @@ button {
   .buttonsec1 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  
-  .buttonsec1 {
+    align-items: flex-end;
+    padding-left: 1200px;
     background-color: transparent;
     border: none;
-    padding: 0;
     cursor: pointer;
     transition: opacity 0.3s;
-  }
-  
-    .buttonsec1 {
     opacity: 0.8;
   }
+  
   
   
 /* section 1 */
