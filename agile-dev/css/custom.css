@@ -1,0 +1,12 @@
+.h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.imageamesoeur {height: 10px;
+                position: fixed; left: 70px;
+                margin: 50px;}
+
+.blocdeuxgeneral {display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+    width: 80%; left: 60px; top: 3em}
+
+    
+.titreettexteamesoeuretbouton {display: flex; flex-direction: column;}
