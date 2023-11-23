@@ -1,0 +1,31 @@
+
+.containerbig {
+    font-size: 20px;
+    font-family: Georgia;
+    background-color:pink ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textG {
+    display:flex;
+    flex-direction: column;
+    text-align: end;
+    
+}
+
+.imgtel{
+   margin: 40px;
+   }
+
+   .texteD1{
+    margin-right: 30px;
+   }
+
+   .texteD2{
+    margin-right: 30px;
+   }
+
+   .textesD{
+    justify-content:;
+   }
