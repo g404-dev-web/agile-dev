@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-footer {
-    font-size: 20px;
-    padding: 8px;
-    background-color: rgb(0,0,0);
-    margin: 0;
-    height: 200px;
-    width: 100%;
-}
 
+<<<<<<< HEAD
 footer p {
     font-family: Georgia ;
     color: antiquewhite;
@@ -33,6 +25,8 @@ footer .logo {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);}
 =======
+=======
+>>>>>>> be461837895bbdb88397366fb76a120cf7660cc5
 .header {
     background-color: black;
     width: 100%;
@@ -91,25 +85,87 @@ footer .logo {
 }
 
 .imageamesoeur {
-    height: 10px;
-    position: fixed;
-    left: 70px;
-    margin: 50px;
+    height: 200px;
+    left: 700px;
+    margin: 150px;
 }
 
 .blocdeuxgeneral {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:first baseline;
     justify-content: center;
     width: 80%;
-    left: 60px;
+    left: 250px;
     top: 3em
 }
 
+.texteamesoeur {font-size: 17pt;
+                left: 400px;}
 
 .titreettexteamesoeuretbouton {
     display: flex;
     flex-direction: column;
->>>>>>> 0289b3e03a8f8c530fb1e43b522b17bd649cb527
+}
+
+.containerbig {
+    font-size: 20px;
+    font-family: Georgia;
+    background-color:pink ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textG {
+    display:flex;
+    flex-direction: column;
+    text-align: end;
+    
+}
+
+.imgtel{
+   margin: 40px;
+   }
+
+   .texteD1{
+    margin-right: 30px;
+   }
+
+   .texteD2{
+    margin-right: 30px;
+   }
+
+footer {
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(0,0,0);
+    margin: 0;
+    height: 200px;
+    width: 100%;
+}
+
+footer p {
+    font-family: Georgia ;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .logo {
+    filter: invert(1);
+    display: flex;
+    gap: 50px;
+    justify-content:flex-end; 
+    margin-right: 30px;
+}
+.logo img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.logo :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
