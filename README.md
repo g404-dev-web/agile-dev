@@ -14,7 +14,7 @@ git clone https://github.com/g404-dev-web/agile-dev.git
 * A la fin de chaque sprint, les User Stories non placées dans la colonne "Done" seront reportées au prochain sprint
 
 ## Wireframe
-Le client vous fournit ce [wireframe](https://wireframe.cc/D68En2) qui est votre référence pour cette mission
+Le client vous fournit ce [wireframe](https://wireframe.cc/P21p3l) qui est votre référence pour cette mission
 
 ## Consignes
 Set-up du projet : Avant de commencer, vous devez relier les ressources (Css&Js) données au fichier index.html
